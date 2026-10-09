@@ -22,4 +22,9 @@ class CityRepository {
             _cities[index] = updatedCity
         }
     }
+
+    fun deleteCity(oldCity: City){
+            _cities.remove(oldCity)
+
+    }
 }
